@@ -9,19 +9,19 @@ public class ProgramKubus {
     static int lebar;
     static int luas;
     static int volume;
-    static Scanner s;
+    static Scanner sanjing;
   
     public static void main(String[] args) {
-        s = new Scanner(System.in);
+        sanjing = new Scanner(System.in);
         System.out.println("Program Kubus");
         System.out.print("Masukan panjang : ");
-        panjang = s.nextInt();
+        panjang = sanjing.nextInt();
         
         System.out.print("Masukan lebar : ");
-        lebar = s.nextInt();
+        lebar = sanjing.nextInt();
         
         System.out.print("Masukan tinggi : ");
-        tinggi = s.nextInt();
+        tinggi = sanjing.nextInt();
         System.out.println("");
         System.out.println("Penghitungan Luas Kubus :");
         luas = 2*((panjang*lebar)+(panjang*tinggi)+(lebar*tinggi));
