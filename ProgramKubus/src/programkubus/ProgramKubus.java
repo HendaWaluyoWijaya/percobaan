@@ -28,6 +28,10 @@ public class ProgramKubus {
         System.out.println("2x("+panjang+"x"+lebar+"+"+panjang+"x"+tinggi+"+"+lebar+"x"+tinggi+") = "+luas);
       
         //Buat Sintak penghitung volume baloknya//
-    }
     
+    System.out.println("");
+        volume= panjang*lebar*tinggi;
+        System.out.println("Dan Luas Kubus :");
+        System.out.println("Panjang "+panjang+" X Lebar "+lebar+" X Tinggi "+tinggi+" = "+volume);
+    }
 }
